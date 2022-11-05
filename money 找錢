@@ -1,0 +1,7 @@
+money=int(input())
+coin50=money//50
+coin5=(money%50)//5
+coin1=money-50*coin50-5*coin5
+print(coin50)
+print(coin5)
+print(coin1)
