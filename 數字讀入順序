@@ -1,0 +1,7 @@
+x=sorted(input())
+y=''
+s=0
+for c in x:
+    y+=c
+    s+=int(c)
+print(y,s)
